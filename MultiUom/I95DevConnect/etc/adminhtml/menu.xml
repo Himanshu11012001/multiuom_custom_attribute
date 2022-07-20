@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+
+        <add id="MultiUom_I95DevConnect::manager"
+         title="MultiUom" 
+         module="MultiUom_I95DevConnect" 
+         sortOrder="10" 
+         resource="MultiUom_I95DevConnect::manager"/>
+
+        <add id="MultiUom_I95DevConnect::add_row" 
+        title="MultiUom" 
+        module="MultiUom_I95DevConnect"
+        sortOrder="20" 
+        parent="MultiUom_I95DevConnect::manager"
+        action="grid/grid" resource="MultiUom_I95DevConnect::add_row"/>
+
+    </menu>
+
+
+
+</config>
